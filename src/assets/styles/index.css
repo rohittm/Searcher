@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-height: 100%;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+}
+
+.main {
+    text-align: center;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header a:hover {
+    color: #ffffff;
+}
+
+.footer {
+    padding: 10px;
+    font-size: 15px;
+    position: fixed;
+    color: #ffffff;
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.logo {
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.test {
+    color: #F00000;
+    margin-bottom: 100px;
+}
