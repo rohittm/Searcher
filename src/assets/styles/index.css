@@ -40,8 +40,6 @@ li {
 
 .logo {
     margin: 50px;
-    width: 100px;
-    height: 100px;
 }
 
 .test {
@@ -49,6 +47,11 @@ li {
 }
 
 .image {
-    border: 5px solid #000000;
     margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.lazy {
+    display: inline;
 }
