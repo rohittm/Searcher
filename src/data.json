@@ -1,0 +1,249 @@
+{
+    "took": 692,
+    "timed_out": false,
+    "_shards": { "total": 5, "successful": 5, "failed": 0 },
+    "hits": {
+        "total": 35,
+        "max_score": 0.23681243,
+        "hits": [{
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_30.jpg",
+                "_score": 0.23681243,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_30.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_30.jpg",
+                    "directory": "./photos",
+                    "file_size": "58 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 18:44:05+05:30",
+                    "headline": "Flat style illustration of towel on hanger.",
+                    "subject": "bath, bathroom, dry, equipment, flat design, hanger, hook, hotel, household, icon, service, sign, symbol, textile, towel, washroom",
+                    "keywords": "bath, bathroom, dry, equipment, flat design, hanger, hook, hotel, household, icon, service, sign, symbol, textile, towel, washroom",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Flat style illustration of towel on hanger."
+                }
+            },
+
+            {
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_01.jpg",
+                "_score": 0.20564206,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_01.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_01.jpg",
+                    "directory": "./photos",
+                    "file_size": "51 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 17:18:52+05:30",
+                    "headline": "Flat style illustration of door hanger. Vector Hotel sign or symbol.",
+                    "subject": "do-not-disturb, door, doorknob, entry, flat design, handle, hang, hanger, hotel, icon, knob, label, lock, motel, room, security, service, sign, symbol, tag, warning",
+                    "keywords": "do-not-disturb, door, doorknob, entry, flat design, handle, hang, hanger, hotel, icon, knob, label, lock, motel, room, security, service, sign, symbol, tag, warning",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Flat style illustration of door hanger. Vector Hotel sign or symbol."
+                }
+            },
+
+            {
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_02.jpg",
+                "_score": 0.20564206,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_02.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_02.jpg",
+                    "directory": "./photos",
+                    "file_size": "108 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 17:19:33+05:30",
+                    "headline": "Flat style illustration of a telephone. Vector sign or symbol.",
+                    "subject": "antique, call, chat, communication, connection, contact, dial, flat design, helpline, hotel, hotline, icon, office, old, phone, receiver, reception, restaurant, service, sign, support, symbol, talk, technology, telephone",
+                    "keywords": "antique, call, chat, communication, connection, contact, dial, flat design, helpline, hotel, hotline, icon, office, old, phone, receiver, reception, restaurant, service, sign, support, symbol, talk, technology, telephone",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Flat style illustration of a telephone. Vector sign or symbol."
+                }
+            },
+
+            {
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_03.jpg",
+                "_score": 0.20564206,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_03.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_03.jpg",
+                    "directory": "./photos",
+                    "file_size": "71 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 17:24:10+05:30",
+                    "headline": "Flat style illustration of sign board.",
+                    "subject": "accommodation, billboard, board, cafe, direction, door, entrance, flat design, frame, gate, hanging, hotel, icon, message, name, plate, restaurant, room, service, sign, signboard, symbol, tag, wooden",
+                    "keywords": "accommodation, billboard, board, cafe, direction, door, entrance, flat design, frame, gate, hanging, hotel, icon, message, name, plate, restaurant, room, service, sign, signboard, symbol, tag, wooden",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Flat style illustration of sign board."
+                }
+            },
+
+            {
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_07.jpg",
+                "_score": 0.20564206,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_07.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_07.jpg",
+                    "directory": "./photos",
+                    "file_size": "90 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 17:34:40+05:30",
+                    "headline": "Illustration of luggage trolley with suitcases. Vector sign or symbol.",
+                    "subject": "backpack, bag, baggage, bellhop, briefcase, carry, flat design, handbag, handle, handtruck, holiday, hotel, icon, journey, luggage, pushcart, service, sign, suitcase, symbol, tour, tourism, travel, trip, trolley, vacation",
+                    "keywords": "backpack, bag, baggage, bellhop, briefcase, carry, flat design, handbag, handle, handtruck, holiday, hotel, icon, journey, luggage, pushcart, service, sign, suitcase, symbol, tour, tourism, travel, trip, trolley, vacation",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Illustration of luggage trolley with suitcases. Vector sign or symbol."
+                }
+            },
+
+            {
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_10.jpg",
+                "_score": 0.08088381,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_10.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_10.jpg",
+                    "directory": "./photos",
+                    "file_size": "53 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 17:45:57+05:30",
+                    "headline": "Hand holding serving tray. Vector Hotel sign or symbol.",
+                    "subject": "catering, cloche, cooking, dinning, dish, dishware, flat design, food, hand, hotel, icon, kitchen, lid, restaurant, serve, service, serving, sign, symbol, utensil, waiter",
+                    "keywords": "catering, cloche, cooking, dinning, dish, dishware, flat design, food, hand, hotel, icon, kitchen, lid, restaurant, serve, service, serving, sign, symbol, utensil, waiter",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Hand holding serving tray. Vector Hotel sign or symbol."
+                }
+            },
+
+            {
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_15.jpg",
+                "_score": 0.08088381,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_15.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_15.jpg",
+                    "directory": "./photos",
+                    "file_size": "81 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 18:03:46+05:30",
+                    "headline": "Illustration of spoon with knife and plate. Vector cutlery sign or symbol.",
+                    "subject": "breakfast, cooking, cutlery, dinner, dinning, dish, flat design, hotel, icon, kitchen, knife, menu, napkin, plate, restaurant, service, serving, setting, sign, spoon, symbol, tool, utensil",
+                    "keywords": "breakfast, cooking, cutlery, dinner, dinning, dish, flat design, hotel, icon, kitchen, knife, menu, napkin, plate, restaurant, service, serving, setting, sign, spoon, symbol, tool, utensil",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Illustration of spoon with knife and plate. Vector cutlery sign or symbol."
+                }
+            },
+
+            {
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_21.jpg",
+                "_score": 0.08088381,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_21.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_21.jpg",
+                    "directory": "./photos",
+                    "file_size": "62 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 18:19:28+05:30",
+                    "headline": "Flat illustration of cocktails in glass.",
+                    "subject": "alcohol, bar, beach, beverage, booze, celebration, cheers, club, cocktail, drink, flat design, fresh, glass, glassware, hotel, icon, juice, occasion, party, pub, restaurant, service, sign, straw, symbol, tropical",
+                    "keywords": "alcohol, bar, beach, beverage, booze, celebration, cheers, club, cocktail, drink, flat design, fresh, glass, glassware, hotel, icon, juice, occasion, party, pub, restaurant, service, sign, straw, symbol, tropical",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Flat illustration of cocktails in glass."
+                }
+            },
+
+            {
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_29.jpg",
+                "_score": 0.08088381,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_29.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_29.jpg",
+                    "directory": "./photos",
+                    "file_size": "86 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 18:42:57+05:30",
+                    "headline": "Illustration of door handle with tag. Vector flat sign or symbol.",
+                    "subject": "access, closed, door, doorway, entrance, entry, flat design, handle, hanger, hotel, house, icon, key, knob, lock, privacy, room, safety, security, service, sign, symbol, tag",
+                    "keywords": "access, closed, door, doorway, entrance, entry, flat design, handle, hanger, hotel, house, icon, key, knob, lock, privacy, room, safety, security, service, sign, symbol, tag",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Illustration of door handle with tag. Vector flat sign or symbol."
+                }
+            },
+
+            {
+                "_index": "photos2",
+                "_type": "photo",
+                "_id": "./photos/VG38_Hotel_Icons_1_April_32.jpg",
+                "_score": 0.08088381,
+                "_source": {
+                    "id": "./photos/VG38_Hotel_Icons_1_April_32.jpg",
+                    "orientation": "Horizontal (normal)",
+                    "megapixels": "0.360",
+                    "file_name": "VG38_Hotel_Icons_1_April_32.jpg",
+                    "directory": "./photos",
+                    "file_size": "62 kB",
+                    "x_resolution": "300",
+                    "y_resolution": "300",
+                    "resolution_unit": "inches",
+                    "create_date": "2017:04:01 18:48:32+05:30",
+                    "headline": "Flat illustration of food cart or trolley with food and wine bottle.",
+                    "subject": "bottle, cart, cloche, delivery, dinner, flat design, food, hotel, icon, meal, order, pushcart, restaurant, room, serve, service, serving, sign, symbol, tray, trolley, wine",
+                    "keywords": "bottle, cart, cloche, delivery, dinner, flat design, food, hotel, icon, meal, order, pushcart, restaurant, room, serve, service, serving, sign, symbol, tray, trolley, wine",
+                    "usageTerms": "© 2017 Allies Interactive Services Pvt. Ltd. All Rights Reserved",
+                    "description": "Flat illustration of food cart or trolley with food and wine bottle."
+                }
+            }
+        ]
+    }
+}

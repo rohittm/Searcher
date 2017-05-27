@@ -45,6 +45,10 @@ li {
 }
 
 .test {
-    color: #F00000;
     margin-bottom: 100px;
+}
+
+.image {
+    border: 5px solid #000000;
+    margin: 5px;
 }

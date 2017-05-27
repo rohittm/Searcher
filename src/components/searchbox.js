@@ -1,17 +1,29 @@
 import React from 'react';
+import elasticsearch from 'elasticsearch'
+
+let client = new elasticsearch.Client({
+	host: 'localhost:9200',
+	log: 'trace'
+})
 
 class Searchbox extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            userInput: ''
+            userInput : []
         };
     };
 
-    handleUserInput(e) {
-	  this.setState({
-	    userInput: e.target.value
-	  });
+    handleUserInput( event ) {
+	  const search_query = event.target.value
+
+		client.search({
+			q: search_query
+		}).then(function ( body ) {
+			this.setState({ results: body.hits.hits })
+		}.bind(this), function ( error ) {
+			console.trace( error.message );
+		});
 	}
 
     clicked() {
@@ -31,9 +43,7 @@ class Searchbox extends React.Component {
                         <div className="col-xs-12">            
                                 <input id="search" className="form-control" type="search" placeholder="Enter Anything" name="search" onKeyPress={this.clicked} onChange={this.handleUserInput.bind(this)} value={this.state.userInput}></input>
                         </div>
-                        {/*<div className="col-xs-2" style={{float : 'left'}}>    
-                            <button onClick={this.clicked} className="btn btn-default" type="button"><i className="glyphicon glyphicon-search"></i></button>
-                        </div>*/}  
+                        <SearchResults results={ this.state.results } />
                     </div>
                 </div>
                 <div className="col-xs-4"></div>
