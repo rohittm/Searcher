@@ -15,11 +15,11 @@ _Prerequisites: nodejs; node canvas - which requries [node-gyp and cairo](https:
 
 Installing node canvas dependency can be tough So follow this:
 
-'xcode-select --install # this is important 
-npm install node-gyp -g
-brew install giflib cairo libjpeg giflib pixman
-export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
-OTHER_CFLAGS=-I/usr/local/include npm install canvas`
+`xcode-select --install # this is important`
+`npm install node-gyp -g`
+`brew install giflib cairo libjpeg giflib pixman`
+`export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig`
+`OTHER_CFLAGS=-I/usr/local/include npm install canvas`
 
 In the indexer directory run `npm install` to set up the dependencies.
 
