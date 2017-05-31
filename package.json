@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-infinite-scroller": "^1.0.12"
   },
   "devDependencies": {
     "elasticsearch": "^13.0.1",

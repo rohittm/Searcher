@@ -18,7 +18,8 @@ class Searchbox extends React.Component {
 	  const search_query = event.target.value
 
 		client.search({
-			q: search_query
+			q: search_query,
+            size: 50
 		}).then(function ( body ) {
 			this.setState({ results: body.hits.hits })
 		}.bind(this), function ( error ) {

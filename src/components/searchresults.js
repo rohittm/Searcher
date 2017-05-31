@@ -21,10 +21,10 @@ class SearchResults extends React.Component {
 					return (
 								<li key={ result._id + i++}>
 									<LazyLoad className="lazy">
-										<img className="image" src={"http://rohitmotwani.com/photos/" + result._source.file_name} alt={result._source.file_name + i++} />
+										<img className="image" src={"http://rohitmotwani.com/photos/" + result._source.file_name} alt="Search Result" />
 									</LazyLoad>
 								</li>
-							) }) }
+							) }) }		
 				</ul>
 			</div>
 		)

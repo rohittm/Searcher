@@ -44,14 +44,21 @@ li {
 
 .test {
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .image {
-    margin: 5px;
-    width: 150px;
-    height: 150px;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+    border-radius: 10%;
 }
 
 .lazy {
     display: inline;
+}
+
+.bclass {
+    text-align: center;
 }
