@@ -14,7 +14,7 @@ class SearchResults extends React.Component {
 
 	render () {
 		return (
-			<div className="search_results">
+			<div>
 				<hr />
                 <ul>
 				{ this.props.results.map((result) => {

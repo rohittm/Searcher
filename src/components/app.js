@@ -13,12 +13,22 @@ let client = new elasticsearch.Client({
 class App extends React.Component {
 	constructor(props) {
         super(props);
-		this.state = { results: [], search_query: '*' }
+		this.state = { results: [], notFound: true }
         this.handleChange = this.handleChange.bind(this);
 	} 
 
+	componentWillMount() {
+		var search_query = '*';
+		this.esSearch(search_query);
+	}
+
 	handleChange ( event ) {
-		var search_query = event.target.value;
+		var search_query = event.target.value + '*';
+		this.esSearch(search_query);
+	}
+
+	esSearch( sq ) {
+		var search_query = sq;
 		var size = 20;
 		var from_size = -20;
 		var from = from_size + size;
@@ -30,24 +40,40 @@ class App extends React.Component {
 			size: size,
 			from: from
 		}).then(function ( body ) {
+			if(body.hits.max_score===null) {
+				this.setState({notFound: true})
+			}
+			else {
+				this.setState({notFound: false})
+			}
 			this.setState({ results: body.hits.hits })
 		}.bind(this), function ( error ) {
 			console.trace( error.message );
+
 		});
+	}
+
+	renderNotFound() {
+    return <div>No Vectors found. Try a different search.</div>;
+  	}
+
+	renderPosts() {
+
+		return(
+			<div className="test bclass">
+                        <SearchResults results={ this.state.results } />
+						<button type="button" className="btn btn-default">Load More</button>
+                    </div>
+		)
+		
 	}
     
 	render () {
+
+		const { notFound } = this.state;	
 		return (
             <div className="main">
                 <Header />
-                {/*<ul>
-				{ this.state.results.map((result) => {
-					return (
-								<li key={ result._id + i++}>
-									{result._source.keywords}
-								</li>
-							) }) }
-				</ul>*/}
                 <div className="row test">
                     <div className="col-xs-4"></div>
                     <div className="col-xs-4">
@@ -60,10 +86,9 @@ class App extends React.Component {
                     <div className="col-xs-4"></div>
                     <br />
                     </div>
-                    <div className="test bclass">
-                        <SearchResults results={ this.state.results } />
-						<button type="button" className="btn btn-default">Load More</button>
-                    </div>
+					<div>
+						{notFound ? this.renderNotFound() : this.renderPosts()}
+					</div>
                 <Footer />
             </div>
 		)
