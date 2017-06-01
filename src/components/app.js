@@ -74,18 +74,7 @@ class App extends React.Component {
 		return (
             <div className="main">
                 <Header />
-                <div className="row test">
-                    <div className="col-xs-4"></div>
-                    <div className="col-xs-4">
-                        <div className="row">
-                            <div className="col-xs-12">            
-                                    <input id="search" className="form-control" type="text" placeholder="Start Searching" name="search" onChange={ this.handleChange }></input>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xs-4"></div>
-                    <br />
-                    </div>
+                <input id="search" className="form-control form" type="text" placeholder="Start Searching" name="search" onChange={ this.handleChange }></input>
 					<div>
 						{notFound ? this.renderNotFound() : this.renderPosts()}
 					</div>

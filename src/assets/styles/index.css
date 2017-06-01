@@ -62,3 +62,8 @@ li {
 .bclass {
     text-align: center;
 }
+
+.form {
+    display: inline-block;
+    width: 30%;
+}
